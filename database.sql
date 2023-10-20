@@ -5,6 +5,7 @@ CREATE DATABASE db_name;
 
 CREATE TABLE persons(){
     person_id INT,
-    names VARCHAR(250)
+    names VARCHAR(250),
+    address VARCHAR(250),
         PRIMARY KEY (person_id);
 }
